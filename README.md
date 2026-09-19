@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src=".github/assets/logo-mark.png" width="96" alt="MetRix VPN logo">
+<img src=".github/assets/logo-mark.png" width="96" alt="MeTrix VPN logo">
 
-# MetRix VPN
+# MeTrix VPN
 
 **Fast, secure, multi-protocol VPN for Android — built with Capacitor.**
 
@@ -19,19 +19,19 @@
 <table>
 <tr>
 <td align="center" width="50%">
-<img src=".github/assets/screenshot-splash.png" width="260" alt="MetRix VPN splash screen"><br>
+<img src=".github/assets/screenshot-splash.png" width="260" alt="MeTrix VPN splash screen"><br>
 <sub>Splash</sub>
 </td>
 <td align="center" width="50%">
-<img src=".github/assets/screenshot-login.png" width="260" alt="MetRix VPN login screen"><br>
+<img src=".github/assets/screenshot-login.png" width="260" alt="MeTrix VPN login screen"><br>
 <sub>Sign in</sub>
 </td>
 </tr>
 </table>
 
-## What is MetRix VPN?
+## What is MeTrix VPN?
 
-MetRix VPN is a hybrid Android app (Capacitor + native Android/Kotlin) that gives users a fast,
+MeTrix VPN is a hybrid Android app (Capacitor + native Android/Kotlin) that gives users a fast,
 private connection with a choice of tunneling protocols and a real global server list, wrapped
 in a modern dark-themed UI.
 
@@ -100,5 +100,5 @@ The in-app updater is architecture-aware — it always offers the device its mat
 ---
 
 <div align="center">
-<sub>© MetRix VPN</sub>
+<sub>© MeTrix VPN</sub>
 </div>
