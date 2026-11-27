@@ -14,17 +14,6 @@
 
 ---
 
-<p align="center">
-  <img src="screenshots/home.png" width="380" alt="Home">&nbsp;&nbsp;
-  <img src="screenshots/servers.png" width="380" alt="Servers">
-</p>
-<p align="center">
-  <img src="screenshots/walle.jpg" width="380" alt="Wall-E">&nbsp;&nbsp;
-  <img src="screenshots/profile.png" width="380" alt="Profile">
-</p>
-
----
-
 ## Features
 
 - **Multiple protocols** — WireGuard, AmneziaWG, OpenVPN (UDP/TCP), HyperFlow, and SecLink.
