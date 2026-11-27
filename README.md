@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src=".github/assets/logo-mark.png" width="96" alt="MeTrix VPN logo">
+<img src="screenshots/logo.png" width="96" alt="MeTrix VPN logo">
 
 # MeTrix VPN
 
-**Fast, secure, multi-protocol VPN for Android — built with Capacitor.**
+**Fast, private, multi-protocol VPN for Android.**
 
-[![Latest Release](https://img.shields.io/github/v/release/zikzee632-hash/MetrixVPN?include_prereleases&label=latest%20release&color=orange)](https://github.com/zikzee632-hash/MetrixVPN/releases)
+[![Latest Release](https://img.shields.io/github/v/release/zikzee632-hash/MetrixVPN?label=latest%20release&color=orange)](https://github.com/zikzee632-hash/MetrixVPN/releases)
 [![Platform](https://img.shields.io/badge/platform-Android-3ddc84?logo=android&logoColor=white)](#)
 [![License](https://img.shields.io/badge/license-Proprietary-lightgrey)](#)
 
@@ -18,87 +18,50 @@
 
 <table>
 <tr>
-<td align="center" width="50%">
-<img src=".github/assets/screenshot-splash.png" width="260" alt="MeTrix VPN splash screen"><br>
-<sub>Splash</sub>
+<td align="center" width="25%">
+<img src="screenshots/home.png" width="200" alt="Home"><br>
+<sub>Home</sub>
 </td>
-<td align="center" width="50%">
-<img src=".github/assets/screenshot-login.png" width="260" alt="MeTrix VPN login screen"><br>
-<sub>Sign in</sub>
+<td align="center" width="25%">
+<img src="screenshots/servers.png" width="200" alt="Servers"><br>
+<sub>Servers</sub>
+</td>
+<td align="center" width="25%">
+<img src="screenshots/walle.jpg" width="200" alt="Wall-E"><br>
+<sub>Wall-E</sub>
+</td>
+<td align="center" width="25%">
+<img src="screenshots/profile.png" width="200" alt="Profile"><br>
+<sub>Profile</sub>
 </td>
 </tr>
 </table>
 
-## What is MeTrix VPN?
+---
 
-MeTrix VPN is a hybrid Android app (Capacitor + native Android/Kotlin) that gives users a fast,
-private connection with a choice of tunneling protocols and a real global server list, wrapped
-in a modern dark-themed UI.
+## Features
 
-### Highlights
+- **Multiple protocols** — WireGuard, AmneziaWG, OpenVPN (UDP/TCP), HyperFlow, and SecLink.
+- **Global server network** — 150 locations with live latency, search, favorites, and one-tap Auto connect.
+- **Wall-E protection** — DNS-level blocking for ads, trackers, malware, crypto scams, and adult content with live stats.
+- **Split Tunneling** — Choose which apps go through the VPN.
+- **Built-in tools** — Speed test, connection diagnostics, home-screen widgets, and Quick Settings tile.
+- **Modern Glass UI** — Native Android interface with dark & light themes and multi-language support.
+- **In-app updates** — Automatic architecture-matched updates directly inside the app.
 
-- **Multiple protocols** — OpenVPN (UDP/TCP), WireGuard, and **Mimic** (VLESS + REALITY, a
-  censorship-resistant obfuscated protocol) with per-protocol server routing and live ping.
-- **Global server list** with real pull-to-refresh, live latency, and city-level relays.
-- **Flexible sign-in** — Email/OTP, Google, Telegram, or a cross-device **Login Code**.
-- **Live network dashboard** — real IP/location lookup, upload/download stats, coordinates,
-  network/ASN info.
-- **Ad & tracker blocking** (NetGuard-style on-device filtering).
-- **Home-screen widgets** (small/large, Jetpack Glance) and a Quick Settings tile for one-tap
-  connect.
-- **Self-updating** — in-app update checks resolve the correct build for the device's real
-  CPU architecture (see below).
-- **Dual-ABI builds** — every release ships both `arm64-v8a` (64-bit) and `armeabi-v7a`
-  (32-bit) APKs, so older 32-bit devices get a build matched to their hardware (protocols that
-  require a 64-bit native engine, like Mimic, are gracefully disabled rather than crashing).
+---
 
-## Tech stack
+## Download
 
-- **Shell:** [Capacitor](https://capacitorjs.com/) (Android)
-- **UI:** single-page vanilla HTML/CSS/JS (`src/index.html`, `src/style.css`) — no framework,
-  no bundler
-- **Native layer:** Kotlin/Java plugins for VPN tunneling (OpenVPN3 core, WireGuard, mihomo/
-  Clash.Meta for Mimic), widgets, update installation, and device bridging
-- **Maps:** MapLibre GL
-- **Updates:** GitHub Releases as the single source of truth for both the stable and
-  pre-release (Dev Mode) update channels
+Get the latest APK from the [Releases page](https://github.com/zikzee632-hash/MetrixVPN/releases):
 
-## Getting started
-
-```bash
-npm install
-npx cap add android
-npx cap sync android
-```
-
-### Build the APK
-
-Push to GitHub — CI builds automatically. Or build locally:
-
-```bash
-cd android && ./gradlew assembleOvpn23Release
-```
-
-This produces separate per-architecture APKs under
-`android/app/build/outputs/apk/ovpn23/release/`:
-
-- `app-ovpn23-arm64-v8a-release.apk` — 64-bit
-- `app-ovpn23-armeabi-v7a-release.apk` — 32-bit
-
-## Releases
-
-Every release on the [Releases page](https://github.com/zikzee632-hash/MetrixVPN/releases)
-ships both architecture builds:
-
-| Asset | Architecture |
+| File | Architecture |
 |---|---|
-| `MetrixVPN-v<version>-arm64-v8a.apk` | 64-bit (arm64-v8a) |
-| `MetrixVPN-v<version>-armeabi-v7a.apk` | 32-bit (armeabi-v7a) |
-
-The in-app updater is architecture-aware — it always offers the device its matching build.
+| `MetrixVPN-v<version>-arm64-v8a.apk` | 64-bit (`arm64-v8a`) — most modern phones |
+| `MetrixVPN-v<version>-armeabi-v7a.apk` | 32-bit (`armeabi-v7a`) — older devices |
 
 ---
 
 <div align="center">
-<sub>© MeTrix VPN</sub>
+<sub>© MeTrix VPN · <a href="mailto:support@metrixvpn.app">support@metrixvpn.app</a></sub>
 </div>
