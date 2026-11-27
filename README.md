@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="screenshots/logo.png" width="96" alt="MeTrix VPN logo">
+<img src="screenshots/logo.png" width="96" alt="Astrix VPN">
 
-# MeTrix VPN
+# Astrix VPN
 
 **Fast, private, multi-protocol VPN for Android.**
 
@@ -14,28 +14,14 @@
 
 ---
 
-## Screenshots
-
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="screenshots/home.png" width="200" alt="Home"><br>
-<sub>Home</sub>
-</td>
-<td align="center" width="25%">
-<img src="screenshots/servers.png" width="200" alt="Servers"><br>
-<sub>Servers</sub>
-</td>
-<td align="center" width="25%">
-<img src="screenshots/walle.jpg" width="200" alt="Wall-E"><br>
-<sub>Wall-E</sub>
-</td>
-<td align="center" width="25%">
-<img src="screenshots/profile.png" width="200" alt="Profile"><br>
-<sub>Profile</sub>
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="screenshots/home.png" width="380" alt="Home">&nbsp;&nbsp;
+  <img src="screenshots/servers.png" width="380" alt="Servers">
+</p>
+<p align="center">
+  <img src="screenshots/walle.jpg" width="380" alt="Wall-E">&nbsp;&nbsp;
+  <img src="screenshots/profile.png" width="380" alt="Profile">
+</p>
 
 ---
 
@@ -63,5 +49,5 @@ Get the latest APK from the [Releases page](https://github.com/zikzee632-hash/Me
 ---
 
 <div align="center">
-<sub>© MeTrix VPN · <a href="mailto:support@metrixvpn.app">support@metrixvpn.app</a></sub>
+<sub>© Astrix VPN · <a href="mailto:support@metrixvpn.app">support@metrixvpn.app</a></sub>
 </div>
